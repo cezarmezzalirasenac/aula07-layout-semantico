@@ -1,0 +1,14 @@
+body {
+  /* 
+    padding: espamento da caixa para dentro
+    margin: espaçamento da caixa para fora
+    height: altura da página
+    width: largura da página
+    font-family: As fontes usadas no documento
+  */
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
