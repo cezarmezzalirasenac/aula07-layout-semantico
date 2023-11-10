@@ -25,8 +25,15 @@ body {
 
 #content {
   width: 90%;
-  background: darkkhaki;
   display: flex;
+  margin: 10px 0;
+  /* 
+  Equivalente a: margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0; 
+  */
 }
 
 #main-footer {
@@ -51,4 +58,61 @@ body {
 
 #content>#articles {
   width: 85%;
+}
+
+.article-item {
+  display: flex;
+  align-items: center;
+  background: darkkhaki;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.article-item:last-child {
+  margin-bottom: 0;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  background: green;
+  margin: 0;
+}
+
+.article-detail {
+  width: 80%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-detail>header {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.article-detail>footer {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+}
+
+#main-header>span {
+  display: flex;
+  color: gold;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+#main-header>span>svg {
+  width: 50px;
+  height: 50px;
 }
